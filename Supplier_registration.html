@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Nyondo Hardware - Supplier Registration</title>
+<title>Nyondo Hardware - Supplier Registration Form</title>
 
-<link rel="stylesheet" href="week2-salesreg.css">
+<link rel="stylesheet" href="Style.css">
 
 </head>
 
@@ -38,7 +38,6 @@
 <a href="sales.html">Sales Management</a>
 <a href="supplier-registration.html" class="active">Supplier Management</a>
 <a href="transport.html">Transport Management</a>
-<a href="index.html">Back Home</a>
 </nav>
 
 </aside>
@@ -49,7 +48,7 @@
 
 <section class="form-card">
 
-<h2>Supplier Registration</h2>
+<h2>Supplier Registration Form</h2>
 <p>Register and manage hardware suppliers</p>
 
 <form>
@@ -134,12 +133,12 @@
 <div class="item-row">
 
 <div class="field">
-<label>Minimum Supply Quantity</label>
-<input type="number">
+<label> Product Manufacturer</label>
+<input type="text" placeholder="Enter manufacturer name">
 </div>
 
 <div class="field">
-<label>Delivery Time (Days)</label>
+<label> Delivery Time (Days)</label>
 <input type="number">
 </div>
 
@@ -202,6 +201,11 @@
 <input type="text" placeholder="Enter account number">
 </div>
 
+<div class="field">
+<label>Tax Identification Number</label>
+<input type="number" placeholder="EnterTIN number">
+</div>
+
 </div>
 
 <div class="flex-row">
@@ -230,7 +234,7 @@ Cancel
 Register Supplier
 </button>
 
-<button class="btn print"> Print receipt
+<button type="submit" class="btn print"> Print Purchase Order
 </button>
 
 </div>
